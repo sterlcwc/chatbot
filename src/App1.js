@@ -10,12 +10,12 @@ import "firebase/compat/firestore";
 import { useCollectionData } from "react-firebase-hooks/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC-ZFS5Nrnd1tdroR8AnLEZ1XrHMwk5FA8",
+  apiKey: [FIREBASE KEY],
   authDomain: "aifluency.firebaseapp.com",
   projectId: "aifluency",
   storageBucket: "aifluency.appspot.com",
-  messagingSenderId: "162716181787",
-  appId: "1:162716181787:web:02712eff5a97ee98951fbe",
+  messagingSenderId: [MESSAGING SENDER ID],
+  appId: [APP ID],
 };
 
 firebase.initializeApp(firebaseConfig);
