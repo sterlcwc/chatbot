@@ -14,7 +14,7 @@ import OpenAI from "openai";
 
 
 var url = new URL(window.location);
-var participantGroup = url.searchParams.get("group") || "micronarrative_solicit_static";
+var participantGroup = url.searchParams.get("group") || "chi_stereo_static";
 
 async function callApi(mssgPrompt) {
   try {
