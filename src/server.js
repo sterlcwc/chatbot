@@ -19,9 +19,9 @@ var participantGroup = url.searchParams.get("group") || "micronarrative_solicit_
 async function callApi(mssgPrompt) {
   try {
     const openai = new OpenAI({
-      organization: "org-ce6PjD5qyOZchHmEcYrAcPze",
+      organization: [ORGANIZATION ID],
       apiKey: process.env.REACT_APP_OPENAI_API_KEY,
-      project: "proj_96CZS49fKfLI8Eo4imCefR7e",
+      project: [PROJECT ID],
       dangerouslyAllowBrowser: true,
     });
 
